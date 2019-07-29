@@ -1,4 +1,6 @@
 package com.example.calculator;
 
-public class DepositRepository {
+import org.springframework.stereotype.Repository;
+
+public interface DepositRepository {
 }
