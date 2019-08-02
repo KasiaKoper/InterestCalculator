@@ -10,9 +10,12 @@ import java.util.Arrays;
 public class DepositController {
 
 
-    @GetMapping("/interest")
+    @GetMapping("/")
     public String calculateDeposit(ModelMap modelMap) {
-        modelMap.put("employee", new Deposit());
-        return "home";
+        modelMap.put("deposit", new Deposit());
+        return "calculator";
     }
+    //todo
+    //html to be added
+
 }
