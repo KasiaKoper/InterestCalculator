@@ -2,7 +2,7 @@ package com.example.calculator;
 
 public class Deposit {
 
-    private int value;
+    private int amount;
     private int noOfYears;
     private int  noOfMonths;
     private double interestRate;
@@ -19,12 +19,12 @@ public class Deposit {
         return interest;
     }
 
-    public int getValue() {
-        return value;
+    public int getAmount() {
+        return amount;
     }
 
-    public void setValue(int value) {
-        this.value = value;
+    public void setAmount(int amount) {
+        this.amount = amount;
     }
 
     public int getNoOfYears() {
